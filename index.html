@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeKids</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  Hello world
-  This will be my first website
-  
-  <script src="script.js"></script>
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#learn">Learn to Code</a></li>
+                <li><a href="#playground">Coding Playground</a></li>
+                <li><a href="#games">Games and Activities</a></li>
+                <li><a href="#parents">Parents and Teachers</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <h1>Welcome to CodeKids</h1>
+            <p>Where coding is fun!</p>
+            <a href="#learn" class="cta-btn">Get Started</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 CodeKids. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
 </body>
-
 </html>

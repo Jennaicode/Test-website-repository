@@ -1,4 +1,123 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Basic styles */
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  /* Dark background */
+  color: #fff;
+  /* White text */
+}
+
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Welcome section styles */
+#welcome {
+  background-color: #292929;
+  /* Dark gray */
+  padding: 50px 0;
+}
+
+#welcome h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ff6347;
+  /* Tomato color */
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6347;
+  /* Tomato color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #d1462d;
+  /* Darker shade of tomato */
+}
+
+/* Navigation menu icon */
+.menu-icon {
+  display: none;
+  /* Hide by default */
+  cursor: pointer;
+}
+
+.menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    /* Hide nav links by default on small screens */
+  }
+
+  .menu-icon {
+    display: block;
+    /* Display menu icon on small screens */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+  }
+
+  .nav-links {
+    display: block;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links li {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
