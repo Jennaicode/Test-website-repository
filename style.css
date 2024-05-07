@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background-color: #072AC8;
+  background-color: #C81D25;
   padding: 10px 0;
 }
 
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #38AECC;
+  color: chartreuse;
   text-decoration: none;
   font-weight: bold;
 }
@@ -84,14 +84,15 @@ footer {
   /* Hide by default */
   cursor: pointer;
 }
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   nav ul {
-    display: none;
+    display: none;}
     /* Hide nav links by default on small screens */
-  }*/
+  }
 
-  .menu-icon {
+   .menu-icon {
     display: block;
     /* Display menu icon on small screens */
     position: absolute;
@@ -102,7 +103,7 @@ footer {
 
   .nav-links {
     display: block;
-    background-color: #333;
+    background-color: orangered;
     position: absolute;
     top: 50px;
     width: 100%;
@@ -113,6 +114,21 @@ footer {
     display: block;
     margin-bottom: 10px;
   }
+
+
+/*about style box */
+body.About {
+  background-color: indianred
+border: 3px double #cyan;
+}
+.bordered-paragraph {
+    border: 10px double cyan; /* Adjust the width and color as needed */
+    padding: 10px; /* Add padding to give some space between the text and the border */
 }
 
 
+body.photogallery
+{
+  color: black;
+  background-color:orangered;
+}
